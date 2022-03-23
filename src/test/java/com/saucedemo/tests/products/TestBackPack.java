@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TestBackPack extends BaseTest {
     @Test
     public void testAddBackPack() {
-        ProductsPage productsPage = loginPage.loginWith("standard_use","secret_sauce");
+        ProductsPage productsPage = loginPage.loginWith("standard_us","secret_sauce");
 
         productsPage.addBackPack();
         Assert.assertEquals(productsPage.getButtonName(), "REMOVE");
