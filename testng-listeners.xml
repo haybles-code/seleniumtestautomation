@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listeners TestSuite">
+    <listeners>
+        <listener class-name="com.saucedemo.tests.base.TestListeners"></listener>
+    </listeners>
+    <test name="Application Test">
+        <classes>
+            <class name="com.saucedemo.tests.login.TestLockedOutUserLogin"></class>
+            <class name="com.saucedemo.tests.login.TestStandardUserLogin"></class>
+            <class name="com.saucedemo.tests.products.TestBackPack"></class>
+        </classes>
+    </test>
+</suite>
