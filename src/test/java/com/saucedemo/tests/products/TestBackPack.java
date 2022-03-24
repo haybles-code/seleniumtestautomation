@@ -10,6 +10,7 @@ public class TestBackPack extends BaseTest {
     public void testAddBackPack() {
         ProductsPage productsPage = loginPage.loginWith("standard_user","secret_sauce");
 
+//        method
         productsPage.addBackPack();
         Assert.assertEquals(productsPage.getButtonName(), "REMOVE");
 
