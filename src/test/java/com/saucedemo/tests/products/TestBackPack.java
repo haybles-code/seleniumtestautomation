@@ -14,10 +14,4 @@ public class TestBackPack extends BaseTest {
         Assert.assertEquals(productsPage.getButtonName(), "REMOVE");
 
     }
-
-    @Test
-    public void testO() {
-        
-    }
-
 }
